@@ -1,3 +1,12 @@
+# FeatureImpCluster 0.1.4
+
+* reference describing the methodology added 
+* documentation improved
+
+# FeatureImpCluster 0.1.3
+
+* Removed LazyData from description to fix CRAN NOTE
+
 # FeatureImpCluster 0.1.2
 
 * Making FeatureImpCluster ready for CRAN (fixing warnings and notes)

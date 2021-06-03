@@ -1,10 +1,10 @@
-a873a4a6620cff3eef00bbd5e321b40a *DESCRIPTION
+8b7a2dc27f6336a3ee03b927e2f71746 *DESCRIPTION
 41258f6e2935a841c9c4a1f09357123d *NAMESPACE
-b7e5e825b704495fd51330e802b240b6 *NEWS.md
+1b2fb7eafe8326cd78a659882a996149 *NEWS.md
 071f36a3a447ed4f2a787ed267c2982f *R/create_random_data.R
-8f457b9e0b7d0b190f7af80f4fa83441 *R/featureimpcluster.R
+813942290f66a86de7713b24ed179e78 *R/featureimpcluster.R
 4957698e28ec7074cc0629b50451beda *R/permmisclassrate.R
-6fe6f93fe53dfbe47ef53f5ae4899b1a *README.md
+a776d02c89eeafe9a3392a507a23c30a *README.md
 92a05a31f564589f54914d47c21f3452 *man/FeatureImpCluster.Rd
 5beeea491d25b143952ca0b417c883ef *man/PermMisClassRate.Rd
 1b8476e68580827b48f93f373370807e *man/create_random_data.Rd
@@ -14,7 +14,7 @@ cd97b4a306593a39ef39e39f80a1f08d *man/figures/README-unnamed-chunk-2-1.png
 7f278c1544a58beca9e741b26acf2806 *man/figures/README-unnamed-chunk-3-1.png
 2069dda1d72d40447947ffec563f15f9 *man/figures/README-unnamed-chunk-4-1.png
 7150b06af46c59d1a13925c45dfafb83 *man/figures/README-unnamed-chunk-6-1.png
-e256ae1c81babc7c0f589f8910622587 *man/plot.Rd
+3fff61f690a2f74a5fe945f12f2ca604 *man/plot.Rd
 a121503eee5a4484a59ca8ecc03cf757 *tests/testthat.R
 a22a4e9ad357ff675bf37f0b133983f2 *tests/testthat/test-featureimpcluster.R
 85d6c9c175b84d4589af9b1c79d6cae5 *tests/testthat/test-permmisclassrate.R
