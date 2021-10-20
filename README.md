@@ -4,9 +4,9 @@
 <!-- badges: start -->
 
 [![Travis build
-status](https://travis-ci.com/o1iv3r/FeatureImpCluster.svg?branch=master)](https://travis-ci.org/o1iv3r/FeatureImpCluster)
+status](https://app.travis-ci.com/o1iv3r/FeatureImpCluster.svg?branch=master)](https://app.travis-ci.com/o1iv3r/FeatureImpCluster)
 [![Codecov test
-coverage](https://codecov.io/gh/o1iv3r/FeatureImpCluster/branch/master/graph/badge.svg)](https://codecov.io/gh/o1iv3r/FeatureImpCluster?branch=master)
+coverage](https://codecov.io/gh/o1iv3r/FeatureImpCluster/branch/master/graph/badge.svg)](https://app.codecov.io/gh/o1iv3r/FeatureImpCluster?branch=master)
 ![CRAN\_Version](https://www.r-pkg.org/badges/version-last-release/FeatureImpCluster)
 ![CRAN\_Downloads](https://cranlogs.r-pkg.org/badges/grand-total/FeatureImpCluster)
 ![CRAN\_Downloads\_LastWeek](https://cranlogs.r-pkg.org/badges/last-week/FeatureImpCluster)
@@ -75,6 +75,10 @@ summary(dat$data)
 
 ``` r
 library(ggplot2)
+#> Registered S3 methods overwritten by 'tibble':
+#>   method     from  
+#>   format.tbl pillar
+#>   print.tbl  pillar
 true_clusters <- factor(dat$true_clusters)
 ggplot(dat$data,aes(x=x,y=y,color=true_clusters)) + geom_point()
 ```
@@ -111,8 +115,7 @@ plot(FeatureImp_res)
 Indeed, y and x are most relevant. But also V3 has some impact on the
 cluster assignment. By looking at the cluster centers we see that, in
 particular, cluster 1 and 4 have a different center in the V3 dimension
-than the other
-clusters.
+than the other clusters.
 
 ``` r
 barplot(res)
@@ -282,8 +285,7 @@ FeatureImpCluster(res_clustimpute,as.data.table(dat$data))
 ```
 
 For other methods, a custom prediction function can be provided
-(cf. documentation for
-details)
+(cf. documentation for details)
 
 ``` r
 FeatureImpCluster(clusterObj, data, predFUN = custom_prediction_function_for_clusterObj)

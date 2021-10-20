@@ -1,6 +1,6 @@
 Package: FeatureImpCluster
 Title: Feature Importance for Partitional Clustering
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: 
     person(given = "Oliver",
            family = "Pfaffel",
@@ -12,11 +12,11 @@ Encoding: UTF-8
 Suggests: flexclust, clustMixType, knitr, rmarkdown, testthat, attempt,
         ClustImpute, covr
 Imports: ggplot2
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 Depends: data.table
 NeedsCompilation: no
-Packaged: 2021-06-02 14:43:10 UTC; opfaf
+Packaged: 2021-10-20 16:04:14 UTC; opfaf
 Author: Oliver Pfaffel [aut, cre]
 Maintainer: Oliver Pfaffel <opfaffel@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-06-03 11:00:27 UTC
+Date/Publication: 2021-10-20 16:20:02 UTC

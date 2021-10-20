@@ -1,10 +1,10 @@
-8b7a2dc27f6336a3ee03b927e2f71746 *DESCRIPTION
+44748f42fc9f41c4ab5a9645f9525f1c *DESCRIPTION
 41258f6e2935a841c9c4a1f09357123d *NAMESPACE
-1b2fb7eafe8326cd78a659882a996149 *NEWS.md
+465d1c83ab8f07123beb71190e6ee254 *NEWS.md
 071f36a3a447ed4f2a787ed267c2982f *R/create_random_data.R
 813942290f66a86de7713b24ed179e78 *R/featureimpcluster.R
-4957698e28ec7074cc0629b50451beda *R/permmisclassrate.R
-a776d02c89eeafe9a3392a507a23c30a *README.md
+f70bb5ca32f739eb3ce3dca0eef77e85 *R/permmisclassrate.R
+b27bff3ef3cb522de47f614112082061 *README.md
 92a05a31f564589f54914d47c21f3452 *man/FeatureImpCluster.Rd
 5beeea491d25b143952ca0b417c883ef *man/PermMisClassRate.Rd
 1b8476e68580827b48f93f373370807e *man/create_random_data.Rd
@@ -17,4 +17,4 @@ cd97b4a306593a39ef39e39f80a1f08d *man/figures/README-unnamed-chunk-2-1.png
 3fff61f690a2f74a5fe945f12f2ca604 *man/plot.Rd
 a121503eee5a4484a59ca8ecc03cf757 *tests/testthat.R
 a22a4e9ad357ff675bf37f0b133983f2 *tests/testthat/test-featureimpcluster.R
-85d6c9c175b84d4589af9b1c79d6cae5 *tests/testthat/test-permmisclassrate.R
+d7912ed6d87574a23398f6108815014c *tests/testthat/test-permmisclassrate.R
